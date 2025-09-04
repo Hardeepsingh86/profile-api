@@ -19,7 +19,8 @@ mongoose.connect(MONGO_URI, {
 app.use(express.json());
 
 // your routes here
-import profileRoutes from "./src/routes/profileRoutes.js";
+import profileRoutes from "./routes/profileRoutes.js";
+
 app.use("/api/profiles", profileRoutes);
 
 app.listen(PORT, () => {
