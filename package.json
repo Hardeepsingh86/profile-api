@@ -2,7 +2,7 @@
   "name": "profile-api",
   "version": "1.0.0",
   "description": "Profile API project for intern task",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
    "start": "node src/server.js",
   "dev": "nodemon src/server.js",
